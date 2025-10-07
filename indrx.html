@@ -11,23 +11,30 @@
     <!-- font awsome cdn -->
     <script src="https://kit.fontawesome.com/6e103d1e84.js" crossorigin="anonymous"></script>
 
+    <!-- fond -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet" >
+
+    <style>
+        .body {
+            font-family: 'Sen', sans-serif;
+        }
+    </style>
 </head>
 
+.body
 <body class="bg-black">
     <header>
         <!-- navbar section -->
-        <nav class=" bg-black text-white p-4">
+        <nav class="bg-black text-white p-4">
             <div class="container mx-auto max-w-7xl flex justify-between items-center">
-                <!-- logo section  -->
                 <div class="flex flex-col items-center">
                     <h2 class="flex items-center justify-center gap-2 text-xl font-semibold">
-                        <img class="inline w-6 h-6" src="assets/logo_left.png" alt="Logo left">
-
-                        <span class="bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
-                            Bodyshape
-                        </span>
-
-                        <img class="inline w-6 h-6" src="assets/logo_right.png" alt="Logo right">
+                        <img class="inline w-6 h-6" src="assets/logo_left.png" alt="Left logo">
+                        <span
+                            class="bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">Bodyshape</span>
+                        <img class="inline w-6 h-6" src="assets/logo_right.png" alt="Right logo">
                     </h2>
                     <p
                         class="text-xs font-normal text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400 opacity-80 text-center mt-1">
@@ -35,18 +42,19 @@
                     </p>
                 </div>
 
-
-                <!-- menu section  -->
-                <div class="block md:hidden lg:hidden">
+                <div class="block md:hidden">
                     <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
                 </div>
+
                 <div class="hidden md:flex space-x-6">
                     <a href="#" class="text-sm px-3 py-2 border-b-2 border-orange-600">Home</a>
                     <a href="#" class="text-sm px-3 py-2 hover:border-b-2 border-orange-600">About</a>
                     <a href="#" class="text-sm px-3 py-2 hover:border-b-2 border-orange-600">Services</a>
                     <a href="#" class="text-sm px-3 py-2 hover:border-b-2 border-orange-600">Contact</a>
-                    <a href="#" class="bg-linear-to-r from-orange-600 to-orange-400  text-sm px-3 py-2 ">Join Us</a>
+                    <a href="#" class="bg-gradient-to-r from-orange-600 to-orange-400 text-sm px-3 py-2 rounded">Join
+                        Us</a>
                 </div>
+            </div>
         </nav>
 
         <!-- Hero Section -->
@@ -77,85 +85,96 @@
             </div>
         </section>
 
-            <!-- ----Fitness and Nutrition Section Start------ -->
-    <section class="container mx-auto relative p-2 mt-20 mb-30">
-      <!-- Content -->
-      <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl md:top-16 top-5 absolute font-bold mb-10">
-        Fitness Plans and <span class="text-orange-600">Nutritions</span>
-      </h1>
-      <div
-        class="relative md:absolute top-28 sm:top-40 md:bottom-52 lg:bottom-96 left-1/2 -translate-x-1/2 text-center container">
-        <!-- Grid Layout -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
-          <!-- Card 1 -->
-          <div
-            class="flex flex-col items-center text-white gap-5 text-center lg:border-r-2 lg:border-b-2 border-orange-600 py-6">
-            <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
-            <h2 class="text-xl font-semibold">Weight Loss</h2>
-            <p class="text-sm opacity-80">
-              Weight loss can have causes that aren't due to <br> underlying disease. Examples include dieting, <br>
-              exercise, malnutrition or lack of access to food
-            </p>
-          </div>
-          <!-- Card 2 -->
-          <div
-            class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 lg:border-r-2 py-6 ">
-            <img src="assets/icon/yoga 1.png" alt="" class="w-20 h-20 object-contain">
-            <h2 class="text-xl font-semibold">Classic Yoga</h2>
-            <p class="text-sm opacity-80">
-              The term "Yoga" in the Western world often<br> denotes a modern form of Hatha yoga and a <br>
-              posture-based physical fitness, stress-relief.
-            </p>
-          </div>
+        <!-- ----Fitness and Nutrition Section Start------ -->
+        <section class="container mx-auto relative p-2 mt-20 mb-30">
+            <!-- Content -->
+            <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl md:top-16 top-5 absolute font-bold mb-10">
+                Fitness Plans and <span class="text-orange-600">Nutritions</span>
+            </h1>
+            <div
+                class="relative md:absolute top-28 sm:top-40 md:bottom-52 lg:bottom-96 left-1/2 -translate-x-1/2 text-center container">
+                <!-- Grid Layout -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
+                    <!-- Card 1 -->
+                    <div
+                        class="flex flex-col items-center text-white gap-5 text-center lg:border-r-2 lg:border-b-2 border-orange-600 py-6">
+                        <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
+                        <h2 class="text-xl font-semibold">Weight Loss</h2>
+                        <p class="text-sm opacity-80">
+                            Weight loss can have causes that aren't due to <br> underlying disease. Examples include
+                            dieting, <br>
+                            exercise, malnutrition or lack of access to food
+                        </p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div
+                        class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 lg:border-r-2 py-6 ">
+                        <img src="assets/icon/yoga 1.png" alt="" class="w-20 h-20 object-contain">
+                        <h2 class="text-xl font-semibold">Classic Yoga</h2>
+                        <p class="text-sm opacity-80">
+                            The term "Yoga" in the Western world often<br> denotes a modern form of Hatha yoga and a
+                            <br>
+                            posture-based physical fitness, stress-relief.
+                        </p>
+                    </div>
 
-          <!-- Card 3 -->
-          <div class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 py-6">
-            <img src="assets/icon/bicycle 1.png" alt="" class="w-20 h-20 object-contain">
-            <h2 class="text-xl font-semibold">Cycling</h2>
-            <p class="text-sm opacity-80">
-              Cycling, aslo, when on a two-wheeled bicycle, <br> called bicycling or biking, is the use of cycles for
-              <br>transport, recreation, exercise or sport.
-            </p>
-          </div>
+                    <!-- Card 3 -->
+                    <div
+                        class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 py-6">
+                        <img src="assets/icon/bicycle 1.png" alt="" class="w-20 h-20 object-contain">
+                        <h2 class="text-xl font-semibold">Cycling</h2>
+                        <p class="text-sm opacity-80">
+                            Cycling, aslo, when on a two-wheeled bicycle, <br> called bicycling or biking, is the use of
+                            cycles for
+                            <br>transport, recreation, exercise or sport.
+                        </p>
+                    </div>
 
-          <!-- Card 4 -->
-          <div class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
-            <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
-            <h2 class="text-xl font-semibold">Body Building</h2>
-            <p class="text-sm opacity-80">
-              Bodybuilding is the use of progressive resistance <br> exercise to control and develop one's muscles by
-              <br> muscle hypertrophy for aesthetic purposes.
-            </p>
-          </div>
+                    <!-- Card 4 -->
+                    <div
+                        class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
+                        <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
+                        <h2 class="text-xl font-semibold">Body Building</h2>
+                        <p class="text-sm opacity-80">
+                            Bodybuilding is the use of progressive resistance <br> exercise to control and develop one's
+                            muscles by
+                            <br> muscle hypertrophy for aesthetic purposes.
+                        </p>
+                    </div>
 
-          <!-- Card 5 -->
-          <div class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
-            <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
-            <h2 class="text-xl font-semibold">Musculation</h2>
-            <p class="text-sm opacity-80">
-              Weight training is a common type of strength <br> training for developing the strength, size of <br>
-              skeletal muscles and maintenance of strength.
-            </p>
-          </div>
+                    <!-- Card 5 -->
+                    <div
+                        class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
+                        <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
+                        <h2 class="text-xl font-semibold">Musculation</h2>
+                        <p class="text-sm opacity-80">
+                            Weight training is a common type of strength <br> training for developing the strength, size
+                            of <br>
+                            skeletal muscles and maintenance of strength.
+                        </p>
+                    </div>
 
-          <!-- Card 6 -->
-          <div class="flex flex-col items-center text-white gap-5 text-center  border-orange-600 py-6">
-            <img src="assets/icon/runer-silhouette-running-fast.png" alt="" class="w-20 h-20 object-contain">
-            <h2 class="text-xl font-semibold">Fitness Running</h2>
-            <p class="text-sm opacity-80">
-              Running is a method of terrestrial loccamotion <br> allowing humans and other animals to move <br> rapidly
-              on foot.
-            </p>
-          </div>
-        </div>
+                    <!-- Card 6 -->
+                    <div class="flex flex-col items-center text-white gap-5 text-center  border-orange-600 py-6">
+                        <img src="assets/icon/runer-silhouette-running-fast.png" alt=""
+                            class="w-20 h-20 object-contain">
+                        <h2 class="text-xl font-semibold">Fitness Running</h2>
+                        <p class="text-sm opacity-80">
+                            Running is a method of terrestrial loccamotion <br> allowing humans and other animals to
+                            move <br> rapidly
+                            on foot.
+                        </p>
+                    </div>
+                </div>
 
-      </div>
+            </div>
 
-      <!-- Background Image -->
-      <div>
-        <img class="transform hidden md:block scale-y-[-1] opacity-30 w-full h-auto" src="assets/banner.png" alt="">
-      </div>
-    </section>
+            <!-- Background Image -->
+            <div>
+                <img class="transform hidden md:block scale-y-[-1] opacity-30 w-full h-auto" src="assets/banner.png"
+                    alt="">
+            </div>
+        </section>
 
     </header>
 
