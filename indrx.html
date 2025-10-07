@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awsome cdn -->
+    <script src="https://kit.fontawesome.com/6e103d1e84.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-black">
+    <header>
+        <!-- navbar section -->
+        <nav class=" bg-black text-white p-4">
+            <div class="container mx-auto max-w-7xl flex justify-between items-center">
+                <!-- logo section  -->
+                <div class="flex flex-col items-center">
+                    <h2 class="flex items-center justify-center gap-2 text-xl font-semibold">
+                        <img class="inline w-6 h-6" src="assets/logo_left.png" alt="Logo left">
+
+                        <span class="bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
+                            Bodyshape
+                        </span>
+
+                        <img class="inline w-6 h-6" src="assets/logo_right.png" alt="Logo right">
+                    </h2>
+                    <p
+                        class="text-xs font-normal text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400 opacity-80 text-center mt-1">
+                        Unleash your inner athlete
+                    </p>
+                </div>
+
+
+                <!-- menu section  -->
+                <div class="block md:hidden lg:hidden">
+                    <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="text-sm px-3 py-2 border-b-2 border-orange-600">Home</a>
+                    <a href="#" class="text-sm px-3 py-2 hover:border-b-2 border-orange-600">About</a>
+                    <a href="#" class="text-sm px-3 py-2 hover:border-b-2 border-orange-600">Services</a>
+                    <a href="#" class="text-sm px-3 py-2 hover:border-b-2 border-orange-600">Contact</a>
+                    <a href="#" class="bg-linear-to-r from-orange-600 to-orange-400  text-sm px-3 py-2 ">Join Us</a>
+                </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section>
+            <div class="container mx-auto relative">
+                <div class="text-white absolute top-5 left-5 md:top-10 lg:top-25 ">
+                    <div class="px-6 py-6 bg-gradient-to-b from-neutral-700/20 to-transparent/0 md:mb-8 mb-0 ">
+                        <h1 class="text-xl sm:text-xl md:text-5xl lg:text-7xl text-white font-medium">
+                            Transform <br> Your Body
+                        </h1>
+                        <p class="text-white/90 my-3 md:my-10">
+                            We are dedicated to helping you transform your <br> body and mind through the power of
+                            fitness.
+                        </p>
+                    </div>
+                    <button
+                        class="bg-gradient-to-r from-[#F66844] to-[#FF921B] px-6 py-2 text-xs rounded-sm text-white font-semibold hover:from-[#FF921B] hover:to-[#F66844] mx-4">Get
+                        started
+                    </button>
+                    <button class="p-2 border-2 text-xs border-orange-600">
+                        <i class="fa-solid fa-circle-play text-orange-600"></i> Watche Reviews
+                    </button>
+                </div>
+            </div>
+            <!-- background image -->
+            <div>
+                <img width="100%" class="bg-cover" src="assets/banner.png" alt="">
+            </div>
+        </section>
+
+            <!-- ----Fitness and Nutrition Section Start------ -->
+    <section class="container mx-auto relative p-2 mt-20 mb-30">
+      <!-- Content -->
+      <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl md:top-16 top-5 absolute font-bold mb-10">
+        Fitness Plans and <span class="text-orange-600">Nutritions</span>
+      </h1>
+      <div
+        class="relative md:absolute top-28 sm:top-40 md:bottom-52 lg:bottom-96 left-1/2 -translate-x-1/2 text-center container">
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col items-center text-white gap-5 text-center lg:border-r-2 lg:border-b-2 border-orange-600 py-6">
+            <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
+            <h2 class="text-xl font-semibold">Weight Loss</h2>
+            <p class="text-sm opacity-80">
+              Weight loss can have causes that aren't due to <br> underlying disease. Examples include dieting, <br>
+              exercise, malnutrition or lack of access to food
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 lg:border-r-2 py-6 ">
+            <img src="assets/icon/yoga 1.png" alt="" class="w-20 h-20 object-contain">
+            <h2 class="text-xl font-semibold">Classic Yoga</h2>
+            <p class="text-sm opacity-80">
+              The term "Yoga" in the Western world often<br> denotes a modern form of Hatha yoga and a <br>
+              posture-based physical fitness, stress-relief.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 py-6">
+            <img src="assets/icon/bicycle 1.png" alt="" class="w-20 h-20 object-contain">
+            <h2 class="text-xl font-semibold">Cycling</h2>
+            <p class="text-sm opacity-80">
+              Cycling, aslo, when on a two-wheeled bicycle, <br> called bicycling or biking, is the use of cycles for
+              <br>transport, recreation, exercise or sport.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
+            <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
+            <h2 class="text-xl font-semibold">Body Building</h2>
+            <p class="text-sm opacity-80">
+              Bodybuilding is the use of progressive resistance <br> exercise to control and develop one's muscles by
+              <br> muscle hypertrophy for aesthetic purposes.
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
+            <img src="assets/icon/workout 1.png" alt="" class="w-20 h-20 object-contain">
+            <h2 class="text-xl font-semibold">Musculation</h2>
+            <p class="text-sm opacity-80">
+              Weight training is a common type of strength <br> training for developing the strength, size of <br>
+              skeletal muscles and maintenance of strength.
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="flex flex-col items-center text-white gap-5 text-center  border-orange-600 py-6">
+            <img src="assets/icon/runer-silhouette-running-fast.png" alt="" class="w-20 h-20 object-contain">
+            <h2 class="text-xl font-semibold">Fitness Running</h2>
+            <p class="text-sm opacity-80">
+              Running is a method of terrestrial loccamotion <br> allowing humans and other animals to move <br> rapidly
+              on foot.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Background Image -->
+      <div>
+        <img class="transform hidden md:block scale-y-[-1] opacity-30 w-full h-auto" src="assets/banner.png" alt="">
+      </div>
+    </section>
+
+    </header>
+
+
+    <main class="bg-black">
+        <!-- subscribe to plan section -->
+
+        <!-- trainer section -->
+        <section class="container mb-10 mx-auto px-2 relative md:top-96 top-0 lg:top-0 ">
+            <div>
+                <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl  font-bold mb-10 md:mb-28">
+                    Join Out <span class="text-orange-600">Trainer</span>
+                </h1>
+                <div class="flex flex-col sm:flex-row justify-center sm:justify-around items-center gap-6">
+                    <img src="assets/trainer_01.png" alt="Trainer 1"
+                        class="w-48 sm:w-56 md:w-56 lg:w-72 object-contain">
+                    <img src="assets/trainer_02.png" alt="Trainer 2"
+                        class="w-48 sm:w-56 md:w-56 lg:w-72 object-contain">
+                    <img src="assets/trainer_03.png" alt="Trainer 3"
+                        class="w-48 sm:w-56 md:w-56 lg:w-72 object-contain">
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- plan section -->
+        <section
+            class="container md:mb20 mx-auto relative mt-44 mb-20 px-2 lg:mt-0  md:-bottom-94 bottom-0 lg:bottom-0 md:mt-20">
+            <div>
+                <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl  font-bold md:mb-48 mb-[50px]">
+                    Subscribe to <span class="text-orange-600">Plans</span>
+                </h1>
+                <div class="flex flex-col gap-5 md:gap-10 md:flex-row justify-around">
+                    <!-- ---Plan-1---- -->
+                    <div
+                        class="bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 p-8 text-white space-y-4 flex flex-col items-center  text-center">
+                        <h1 class="text-2xl font-medium">
+                            Fit
+                        </h1>
+                        <p class="text-white/60">
+                            Plan Exp. 16/11/2024
+                        </p>
+                        <h1>
+                            <span class="text-2xl font-medium">$1200 /</span> <span class="text-white/60">Month</span>
+                        </h1>
+                        <p class="text-white/60">
+                            Streaming
+                        </p>
+                        <button class="border-1 border-orange-600 px-8 mb-4 py-1">
+                            Select Plan
+                        </button>
+                    </div>
+                    <!-- ------Plan-2--- -->
+                    <div
+                        class=" relative top-0 md:-top-10 bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 p-8 text-white space-y-4 flex flex-col items-center  text-center">
+                        <button class="absolute -top-5 px-4 py-2 font-medium bg-white text-black rounded-md">
+                            Recomended
+                        </button>
+                        <h1 class="text-2xl font-medium">
+                            Fit
+                        </h1>
+                        <p class="text-white/60">
+                            Plan Exp. 16/11/2024
+                        </p>
+                        <h1>
+                            <span class="text-2xl font-medium">$1000 /</span> <span class="text-white/60">Month</span>
+                        </h1>
+                        <p class="text-white/60">
+                            Streaming
+                        </p>
+                        <button class="border-1 border-orange-600 px-8 mb-4 py-1">
+                            Select Plan
+                        </button>
+                    </div>
+                    <!--------- Plan-3-------- -->
+                    <div
+                        class="bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 p-8 text-white space-y-4 flex flex-col items-center  text-center">
+                        <h1 class="text-2xl font-medium">
+                            Fit
+                        </h1>
+                        <p class="text-white/60">
+                            Plan Exp. 16/11/2024
+                        </p>
+                        <h1>
+                            <span class="text-2xl font-medium">$1500 /</span> <span class="text-white/60">Month</span>
+                        </h1>
+                        <p class="text-white/60">
+                            Streaming
+                        </p>
+                        <button class="border-1 border-orange-600 px-8 mb-4 py-1">
+                            Select Plan
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- join us section -->
+
+        <section class="container mx-auto h-full  px-2 relative md:top-96 top-0 lg:top-0 md:mb-10 md:mb-100 lg:mb-10">
+            <div>
+                <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl  font-bold  mt-10 mb-5">
+                    Why Join With <span class="text-orange-600">Us?</span>
+                </h1>
+                <div class="flex flex-col md:flex-row justify-around items-center md:items-end">
+                    <div class="mb-16">
+                        <ul
+                            class="list-disc  marker:text-orange-500 text-white bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0  py-4 pl-10 pr-10 ">
+                            <li>Best Gym</li>
+                            <li>Experts Coach</li>
+                            <li>Good Workout Facilities</li>
+                            <li>Consultation With Experts</li>
+                        </ul>
+                        <button
+                            class="bg-gradient-to-r from-[#F66844] to-[#FF921B] px-6 py-2 text-xs md:text-xl rounded-sm text-white font-semibold hover:from-[#FF921B] hover:to-[#F66844] mt-10">
+                            See More Benifits
+                        </button>
+                    </div>
+
+                    <div>
+                        <img class="relative -top-7 -left-10 " width="150px" src="assets/join_us_01.png" alt="">
+                        <img src="assets/join_us_02.png" width="150px" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <!-- footer main section  -->
+        <div class="bg-gray-800 text-white p-10">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-8">
+                <!-- about us section  -->
+                <div>
+                    <div class="text-center">
+                        <h2 class="flex items-center justify-center gap-2 text-xl font-semibold mb-2">
+                            <img class="inline w-6 h-6" src="assets/logo_left.png" alt="Logo left">
+
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">
+                                Bodyshape
+                            </span>
+
+                            <img class="inline w-6 h-6" src="assets/logo_right.png" alt="Logo right">
+                        </h2>
+
+                        <p
+                            class="text-xs font-normal text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400 ">
+                            Unleash your inner athlete
+                        </p>
+                    </div>
+                    <p class="text-xl font-bold mb-4 mt-4">Support Your Need To Much Fitness Goal</p>
+                </div>
+                <!-- Company section  -->
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Company</h2>
+                    <ul class="space-y-2 opacity-50 list-none">
+                        <li><a href="#" class="hover:no-underline">About</a></li>
+                        <li><a href="#" class="hover:no-underline">Careers</a></li>
+                        <li><a href="#" class="hover:no-underline">Blogs</a></li>
+                    </ul>
+                </div>
+                <!-- Contact section  -->
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Contact</h2>
+                    <ul class="space-y-2 opacity-50">
+                        <li><a href="#" class="hover:no-underline">Help \ FAQ</a></li>
+                        <li><a href="#" class="hover:no-underline">Press</a></li>
+                    </ul>
+                </div>
+                <!-- More section  -->
+                <div>
+                    <h2 class="text-xl font-bold mb-4">More</h2>
+                    <ul class="space-y-2 opacity-50">
+                        <li><a href="#" class="hover:no-underline">Program</a></li>
+                        <li><a href="#" class="hover:no-underline">Plan</a></li>
+                        <li><a href="#" class="hover:no-underline">Method</a></li>
+                    </ul>
+                </div>
+
+                <!-- popular tags section  -->
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Popular tags</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Abs</span>
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Workout</span>
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Nutrition</span>
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Boxing</span>
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Gym</span>
+                        <span
+                            class="bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Facilities</span>
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Plans</span>
+                        <span
+                            class=" hover:bg-linear-to-r from-orange-600 to-orange-400 bg-gray-600 text-sm px-3 py-1  hover:bg-gray-500 cursor-pointer">Trainers</span>
+                    </div>
+                    <!-- footer copyright section  -->
+    </footer>
+    <!-- copyRight symble -->
+    <div class=" bg-orange-400 text-white p-4">
+        <p class="text-center font-normal "> &copy; 2023 All Rights Reserved</p>
+    </div>
+</body>
+
+</html>
